@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Crud</title>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript" src="crud.js" ></script>
-</head>
-<body>
-    <input type="hidden" id="rowindex" >
-    <table class="table">
-        <tr>
-            <td>Id:</td>
-            <td>
-                <input type="text" name="id" id="txtid" value="">
-            </td>
-        </tr>
-        <tr>
-            <td>Name:</td>
-            <td>
-                <input type="text" name="name" id="txtname" value="">
-            </td>
-        </tr>
-        <tr>
-            <td>Country:</td>
-            <td>
-                <input type="text" name="contry" id="txtcountry" value="">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button type="button" id="btnadd">Add</button>
-                <button type="button" id="btnupdate" style="display: none;">Update</button>
-            </td>
-            <td>
-                <button type="button" id="btnclear">Clear</button>
-            </td>
-        </tr>
-    </table>
-    <table id="tbldata" class="table">
-        <thead>
+    <head>
+        <title>Crud</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="crud.js" ></script>
+    </head>
+    <body>
+        <input type="hidden" id="rowindex" >
+        <table class="table">
             <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Country</th>
-                <th>Edit</th>
-                <th>Delete</th>
+                <td>Id:</td>
+                <td>
+                    <input type="text" name="id" id="txtid" value="">
+                </td>
             </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
-</body>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type="text" name="name" id="txtname" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td>
+                    <input type="text" name="contry" id="txtcountry" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" id="btnadd">Add</button>
+                    <button type="button" id="btnupdate" style="display: none;">Update</button>
+                </td>
+                <td>
+                    <button type="button" id="btnclear">Clear</button>
+                </td>
+            </tr>
+        </table>
+        <table id="tbldata" class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Country</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </body>
 </html>
