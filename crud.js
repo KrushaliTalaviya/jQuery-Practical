@@ -9,7 +9,7 @@ $(function() {
 		var edit = "<a class='edit' href='JavaScript:void(0);'>Edit</a>";
 		var delet = "<a class='delete' href='JavaScript:void(0);'>Delete</a>";
 		if (name == "" || country == "") {
-			alert("Name and country Filed are Required!");
+			alert("Name and country filed are required!");
 		} else {
 			var table;
 			table = "<tr><td>" + id + "</td><td>" + name + "</td><td>" + country + "</td><td>" + edit + "</td><td>" + delet + "</td></tr>"
